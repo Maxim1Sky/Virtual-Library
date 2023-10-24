@@ -4,6 +4,8 @@ const Book = require("./classes/Book");
 
 const Movie = require("./classes/Movie");
 
+const Music = require("./classes/Movie");
+
 // const harry = new Book(
 //   "Harry Potter and the Order of Phoenix",
 //   "Fiction",
