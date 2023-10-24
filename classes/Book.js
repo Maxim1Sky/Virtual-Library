@@ -16,8 +16,8 @@ class Book extends Media {
     return theBook;
   }
 
-  constructor(author, numPages, rating) {
-    super();
+  constructor(title, year, genre, author, numPages, rating) {
+    super(title, year, genre); // <---- I AM CONFUSED ABOUT THIS STUFF
     this.author = author;
     this.numPages = numPages;
     this.rating = rating;
