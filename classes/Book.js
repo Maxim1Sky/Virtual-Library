@@ -8,8 +8,8 @@ class Book extends Media {
     let theBook;
 
     for (let book of books) {
-      if (this.book.rating > highest) {
-        highest = this.book.rating;
+      if (book.rating > highest) {
+        highest = book.rating;
         theBook = book;
       }
     }
